@@ -28,7 +28,8 @@ def client_instance_status(cred, region):
     for instance in instance_set:
         id = instance['InstanceId']
         status = instance['InstanceState']
-        tmp.append([id, status])
+        name = instance['InstanceName']
+        tmp.append([id, status, name])
     return tmp
 
 

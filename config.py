@@ -11,6 +11,6 @@ G_API_ID = "AKIDXpGI4Niau3xx7EILVYxGnt89zuze4lvA"
 G_API_KEY = "VJ1ZxOTdU7vdbN6BCj7MLglh8LJ1ScfR"
 
 # Redis 数据库密码
-G_REDIS_PASSWORD = "toortoor"
+G_REDIS_PASSWORD = ""
 
 # 修改完毕之后，重启程序即可.

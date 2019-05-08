@@ -50,7 +50,7 @@
                 <textarea id='input_copy' style="width: 1px;height: 1px;resize:none;"></textarea>
                 <ul>
                     {% for v in instances %}
-                    <li><b>名称:</b><span>{{ v[0] }}</span> <b>状态:</b>{{ v[1] }}
+                    <li><b>名字:</b>{{ v[3] }} <b>ID:</b><span>{{ v[0] }}</span> <b>状态:</b>{{ v[1] }}
                         <a href="javascript:void(0);" onclick="CopyText('{{ v[0] }}')">[复制名称]</a></li>
                     {% endfor %}
                 </ul>
