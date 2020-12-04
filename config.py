@@ -7,8 +7,8 @@ G_USERNAME = "root"
 G_PASSWORD = "toor"
 
 # 腾讯云账号 API 接口密匙
-G_API_ID = "AKIDXpGI4Niau3xx7EILVYxGnt89zuze4lvA"
-G_API_KEY = "VJ1ZxOTdU7vdbN6BCj7MLglh8LJ1ScfR"
+G_API_ID = "腾讯云账号密匙"
+G_API_KEY = "腾讯云账号密匙"
 
 # Redis 数据库密码
 G_REDIS_PASSWORD = ""
