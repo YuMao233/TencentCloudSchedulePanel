@@ -14,3 +14,5 @@
 pip install -r equirements.txt
 python web.py
 ```
+
+另外还需要一个 `redis` 数据库存在于 6379 端口，账号密码在 config.py 中配置。
